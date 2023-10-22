@@ -1,6 +1,12 @@
 .app {
   display: flex;
   height: 100vh;
-  padding: 30px 80px;
   background-color: #444447;
+}
+
+@media screen and (min-width: 768px) {
+  /* スクリーンサイズが768px以上の場合に適用 */
+  .app {
+    padding: 30px 80px 0;
+  }
 }

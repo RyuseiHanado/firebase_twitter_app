@@ -1,0 +1,22 @@
+.feed {
+    flex: 1;
+    overflow-y: scroll;
+}
+.feed::-webkit-scrollbar {
+    display: none;
+}
+
+.feed_header {
+    padding: 10px;
+}
+.feed_header h3 {
+    flex-grow: 1;
+}
+.feed_header svg {
+    color: #fff;
+    font-size: 30px;
+}
+
+.feed_posts {
+    overflow-x: hidden;
+}
